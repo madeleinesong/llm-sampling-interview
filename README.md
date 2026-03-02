@@ -2,10 +2,12 @@
 
 ## Instructions
 
-1. Clone the repository.
-2. Run: `python -m pytest`
+1. Clone the repository and `cd` into it.
+2. `pip install pytest`
+3. Run: `python3 -m pytest` (all tests should fail with `NotImplementedError`).
 3. Implement `sample_next_token` in `sampling.py`.
-4. Do not modify `test_sampling.py`.
+4. Run `python3 -m pytest` again until all tests pass.
+5. Do not modify `test_sampling.py`.
 
 ## Problem Description
 
